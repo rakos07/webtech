@@ -1,0 +1,105 @@
+*{
+ margin:0px;
+ padding:0px;
+ }
+body{
+ font-family:Tahoma, Geneva, sans-serif;
+ 		background-image: url("../images/elso.jpeg");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+ }
+#container{
+ width:300px;
+ background-color:black;
+ margin:auto;
+ margin-top:10px;
+ margin-bottom:10px;
+ border-style: ridge;
+ }
+#container_body{
+ padding:20px;
+ }
+.form_title{
+ font-size:35px;
+ color:white;
+ text-align:center;
+ padding:10px;
+ font-weight:normal;
+ }
+#user_form{
+ padding:10px 0 10px 0px;
+ margin:10px;
+ }
+.input_user{
+ width:210px;
+ padding:5px;
+ font-size:18px;
+ } 
+#form_name{
+ padding:25px 0 0 15px;
+ }
+.firstnameorlastname{
+  margin-right:20px;
+ }
+.input_name{
+ width:210px;
+ padding:5px;
+ font-size:18px;
+ }
+#email_form{
+ clear:both;
+ padding:15px 0 10px 0px;
+ }
+.input_email{
+ width:210px;
+ padding:5px;
+ font-size:18px;
+ }
+#password_form{
+ padding:10px 0 10px 0px;
+ }
+.input_password{
+ width:210px;
+ padding:5px;
+ font-size:18px;
+ }
+#Re_password_form {
+ padding:10px 0 10px 0px;
+ }
+.input_Re_password{
+ width:210px;
+ padding:5px;
+ font-size:18px;
+ }
+#age_form{
+ padding:10px 0 10px 0px;
+ }
+.input_age{
+ width:210px;
+ padding:5px;
+ font-size:18px;
+ } 
+#radio_button{
+ color:white;
+ padding:10px 0 0 0;
+ }
+#sign_user{
+ font-size:14px;
+ color:#FFF;
+ text-align:center;
+ background-color:#3B5998;
+ padding:10px;
+ margin-top:10px;
+ cursor: pointer;
+ }
+#errorBox{
+ color:#F00;
+ }
+ 
+#emptyDiv{
+	margin:auto;
+}
+
+@media only screen and (max-device-width: 1024px) {.elso.jpeg{background-attachment: scroll;}}
