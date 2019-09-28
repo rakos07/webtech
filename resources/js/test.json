@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "key": "Username",
+      "value": "rakos07"
+    },{
+      "key": "Password",
+      "value": "123456"
+    }
+  ],
+  "obj": {
+    "number": 1.2345e-6,
+    "enabled": true
+  },
+  "message": "Strings have to be in double-quotes."
+}
